@@ -1,0 +1,130 @@
+:root {
+	--main-violet: hsl(257, 40%, 49%);
+	--main-soft-magenta: hsl(300, 69%, 71%);
+}
+html {
+	font-family: sans-serif;
+	font-size: 10px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	max-width: 100vw;
+	font-size: 1.6rem;
+	background: url('../frontendmentor01/images/bg-desktop.svg') center no-repeat;
+	background-size: cover;
+	background-color: var(--main-violet);
+}
+.parent-container {
+	padding: 50px 50px 0 50px;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+header img {
+	width: 15%;
+}
+main {
+	padding-top: 80px;
+}
+.container {
+	display: flex;
+	box-sizing: border-box;
+	padding-right: 100px;
+}
+.box-1 {
+	flex: 60%;
+}
+.box-1 img {
+	max-width: 100%;
+}
+.box-2 {
+	flex: 40%;
+	padding-left: 50px;
+}
+.box-2 h1 {
+	font-size: 2.5em;
+	color: #ffffff;
+	line-height: 1.5;
+}
+.box-2 p {
+	font-size: 1em;
+	color: #ffffffbb;
+	line-height: 1.5;
+}
+.button {
+	padding: 10px 40px;
+	border-radius: 30px;
+	font-size: 1em;
+	color: #80008074;
+	font-weight: bold;
+	box-shadow: 0px 6px 10px #00000087;
+	border: none;
+	cursor: pointer;
+}
+.button:hover {
+	color: #ffffffbb;
+	background-color: var(--main-soft-magenta);
+}
+.socials ul li {
+	display: inline;
+	padding: 10px;
+}
+.socials ul li a {
+	text-decoration: none;
+}
+i:hover {
+	cursor: pointer;
+	background-color: var(--main-soft-magenta);
+}
+.socials {
+	float: right;
+}
+footer {
+	padding-top: 50px;
+	text-align: center;
+	color: white;
+	font-size: 1.2rem;
+}
+footer a {
+	color: #350335;
+}
+/* media query */
+@media screen and (max-width: 700px) {
+	.parent-container {
+		max-width: 375px;
+		margin: 0 auto;
+	}
+	.container {
+		flex-direction: column;
+		transform: translateX(50px);
+	}
+	header img {
+		width: 35%;
+		transform: translateX(50px);
+	}
+	.box-2 h1 {
+		font-size: 1.2em;
+		color: #ffffff;
+		line-height: 1.5;
+	}
+	.box-2 p {
+		font-size: 1em;
+		color: #ffffffbb;
+		line-height: 1.5;
+	}
+
+	.box-2 {
+		width: 100%;
+		padding-top: 50px;
+		padding-left: 0;
+		text-align: center;
+	}
+	.socials {
+		float: none;
+	}
+	.button {
+		padding: 10px 70px;
+		margin-top: 10px;
+		font-size: 0.8em;
+	}
+}
