@@ -12,19 +12,10 @@
 	margin: 0;
 	padding: 0;
 }
-@font-face {
-	font-family: 'Libre Franklin One';
-	src: url(../frontendmentor02/Libre_Franklin/static/LibreFranklin-Bold.ttf);
-}
-@font-face {
-	font-family: 'Libre Franklin Two';
-	src: url(../frontendmentor02/Libre_Franklin/static/LibreFranklin-Light.ttf);
-}
 html {
 	font-size: 20px;
-	font-family: Libre Franklin Two;
-	/* font-family: 'Libre Franklin' sans-serif;
-	font-weight: 300; */
+	font-family: 'Libre Franklin' sans-serif;
+	font-weight: 300; 
 }
 body {
 	background-color: white;
@@ -49,9 +40,8 @@ header {
 	padding: 3rem 0 1rem 0;
 }
 header h1 {
-	font-family: Libre Franklin One;
-	/* font-family: 'Libre Franklin' sans-serif;
-	font-weight: 700; */
+	font-family: 'Libre Franklin' sans-serif;
+	font-weight: 700;
 	font-size: 1rem;
 	text-align: center;
 }
@@ -77,9 +67,8 @@ header h1 {
 }
 .intro-texts span {
 	color: black;
-	font-family: Libre Franklin One;
-	/* font-family: 'Libre Franklin' sans-serif;
-	font-weight: 700; */
+	font-family: 'Libre Franklin' sans-serif;
+	font-weight: 700; 
 }
 /* introductory section ends */
 
@@ -106,7 +95,8 @@ label {
 	font-size: 0.5rem;
 	display: flex;
 	justify-content: center;
-	font-family: Libre Franklin Two;
+        font-family: 'Libre Franklin' sans-serif;
+	font-weight: 300; 
 	color: var(--main-light-red);
 }
 .box-1 {
@@ -197,7 +187,6 @@ footer {
 	label {
 		font-size: 0.5rem;
 		justify-content: initial;
-		font-family: Libre Franklin Two;
 		color: var(--main-light-red);
 		padding: 0 1rem;
 	}
